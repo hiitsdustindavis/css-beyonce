@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "RubikBlack";
+  src: url("../rubik/Rubik-BLack.ttf");
+}
+@font-face {
+  font-family: "RubikLight";
+  src: url("../rubik/Rubik-Light.ttf");
+}
+
+body {
+  background-color: #fcfae3;
+  margin: 0;
+}
+
+p {
+  font-family: "RubikLight";
+  font-size: 14px;
+  padding: 0px;
+  margin: 0;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: "RubikBlack";
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 1800px;
+  height: 1600px;
+  margin: 0 auto;
+}
+
+
+.content {
+  position: relative;
+  margin: 0 auto;
+  width: 1350px;
+  height: 1600px;
+  top: 725px;
+}
+
+.header {
+  position: absolute;
+  background-image: url("../img/beyonce.jpg");
+  background-repeat: no-repeat;
+  width: 1800px;
+  height: 800px;
+}
+
+.nav {
+  position: absolute;
+  width: 1800px;
+}
+
+.column1 {
+  /*position: absolute;*/
+  float: left;
+  width: 35%;
+  height: 400px;
+  margin: 50px 0px 50px 0px;
+}
+
+#mediaIcons {
+  max-width: 150px;
+  max-height: auto;
+  display: block;
+  margin: 20px 0px 0px 0;
+}
+
+.column2 {
+  /*position: absolute;*/
+  float: right;
+  height: 400px;
+  width: 60%;
+  margin: 50px 0px 50px 0px;
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  font-family: "RubikBlack";
+  text-transform: uppercase;
+  float: left;
+  font-size: 20px;
+  margin: 400px 80px 0 0;
+}
+
+li:first-child {
+  float: left;
+  margin: 200px 0px 0 200px;
+}
+
+li:hover {
+  color: #8514e3;
+}
+
+h1:hover {
+  color: #8514e3;
+}
+
+#emailButton {
+  background-color: #8514e3;
+  color: white;
+  border: none;
+  padding: 12px 20px 12px 20px;
+  border-radius: 2px;
+  margin: 20px 0 0 0;
+  clear: both;
+}
+
+.iframe {
+  float: left;
+  margin: 0px 28px 10px 0px;
+}
